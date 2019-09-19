@@ -4,6 +4,7 @@ def recursive_fib(num)
 end
 
 def iterative_fib(num)
+	return num if num < 2
 	a = 0
 	b = 1
 	count = 1
